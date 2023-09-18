@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div id="home-screen">
+        <div class="result">0</div>
+        <div class="calcButtons">
+            <button class="clear-button" onclick="clearDisplay()">Clear</button>
+            <button class="division-button" onclick="appendToDisplay('/')">/</button>
+            <button class="multiply-button" onclick="appendToDisplay('*')">x</button>
+            <button class="minus-button" onclick="appendToDisplay('-')">-</button>
+            <button class="plus-button" onclick="appendToDisplay('+')">+</button>
+            <button class="equals-button" onclick="calculateResult()">=</button>
+        </div>
+        <div class="numbers">
+            <button class="sevenButtonNumber"onclick="appendToDisplay('7')">7</button>
+            <button class="eightButtonNumber" onclick="appendToDisplay('8')">8</button>
+            <button class="nineButtonNumber" onclick="appendToDisplay('9')">9</button>
+            <button class="fourButtonNumber" onclick="appendToDisplay('4')">4</button>
+            <button class="fiveButtonNumber" onclick="appendToDisplay('5')">5</button>
+            <button class="sixButtonNumber" onclick="appendToDisplay('6')">6</button>
+            <button class="oneButtonNumber" onclick="appendToDisplay('1')">1</button>
+            <button class="twoButtonNumber" onclick="appendToDisplay('2')">2</button>
+            <button class="threeButtonNumber" onclick="appendToDisplay('3')">3</button>
+            <button class="zeroButtonNumber" onclick="appendToDisplay('0')">0</button>
+            <button class="zeroButtonNumber" onclick="appendToDisplay('0')">0</button>
+            <button class="dot-buttonNumber" onclick="appendToDisplay('.')">.</button>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script> 
+</body>
+
+</html>
